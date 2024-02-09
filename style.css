@@ -200,12 +200,10 @@
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    cursor: default;
 }
 
 .dashboxmain {
     display: flex;
-    cursor: default;
 }
 
 .dashbox {
@@ -251,7 +249,6 @@
     margin: 20px;
     position: absolute;
     top: 360px;
-    cursor: default;
 }
 
 .dashboxpmain {
@@ -273,6 +270,9 @@
 .number
 {
     line-height: 30px;
+}
+.number p{
+    color: darkgray;
 }
 .numberflex
 {
@@ -310,8 +310,4 @@
     /* font-size: 30px; */
     color: green;
 
-}
-.dashboxsmalldownonep::before
-{
-   
 }
